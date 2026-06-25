@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidoy - Koleksi Video Viral</title>
+    
+    <style>
+        /* RESET & TAMPILAN GELAP TOTAL */
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* HEADER LOGO */
+        .brand-header {
+            background: #141414;
+            padding: 15px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 800;
+            letter-spacing: 0.5px;
+            border-bottom: 1px solid #222;
+            color: #ff2a74; /* Warna pink khas Vidoy */
+        }
+
+        /* DAFTAR KONTEN */
+        .feed-container {
+            max-width: 480px;
+            margin: 0 auto;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        /* KOTAK PER VIDEO (CARD) */
+        .video-card {
+            background: #141414;
+            border-radius: 14px;
+            overflow: hidden;
+            margin-bottom: 22px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+        }
+
+        .video-info-title {
+            padding: 12px 14px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #eaeaea;
+            line-height: 1.4;
+        }
+
+        .media-box {
+            position: relative;
+            width: 100%;
+            background: #000;
+        }
+
+        .media-box video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        /* TOMBOL PLAY PINK DI TENGAH VIDEO */
+        .center-play-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 55px;
+            height: 55px;
+            background: #ff2a74;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 15px rgba(255, 42, 116, 0.6);
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .center-play-icon::after {
+            content: "";
+            border-left: 18px solid #ffffff;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            margin-left: 4px;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="brand-header">vídoy</div>
+
+    <div class="feed-container">
+
+        <a href="https://www.effectivecpmnetwork.com/ps1jfrz52?key=d5800b3b3cfc60b1ad0bfde093c67b39" target="_blank">
+            <div class="video-card">
+                <div class="video-info-title">bu guru salsa</div>
+                <div class="media-box">
+                    <video autoplay loop muted playsinline>
+                        <source src="https://cdn2.videyin.co/d87hxe6" type="video/mp4">
+                    </video>
+                    <div class="center-play-icon"></div>
+                </div>
+            </div>
+        </a>
+        <a href="https://www.effectivecpmnetwork.com/ps1jfrz52?key=d5800b3b3cfc60b1ad0bfde093c67b39" target="_blank">
+            <div class="video-card">
+                <div class="video-info-title">Bu guru salsa sempat viral</div>
+                <div class="media-box">
+                    <video autoplay loop muted playsinline>
+                        <source src="https://cdn2.videyin.co/XsrKXDe" type="video/mp4">
+                    </video>
+                    <div class="center-play-icon"></div>
+                </div>
+            </div>
+        </a>
+        </div>
+
+</body>
+</html>
